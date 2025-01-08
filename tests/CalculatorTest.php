@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Boatrace\Sakura\Tests;
+namespace Boatrace\Venture\Project\Tests;
 
-use Boatrace\Sakura\Calculator;
+use Boatrace\Venture\Project\Calculator;
 use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 
 /**

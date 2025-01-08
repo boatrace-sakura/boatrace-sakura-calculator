@@ -1,6 +1,6 @@
 {
-    "name": "boatrace-sakura/calculator",
-    "description": "The Boatrace Sakura Calculator.",
+    "name": "bvp/calculator",
+    "description": "Calculator in the Boatrace Venture Project.",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -14,16 +14,16 @@
         "php-di/php-di": "^6.1 || ^7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.0"
+        "phpunit/phpunit": "^10.1"
     },
     "autoload": {
         "psr-4": {
-            "Boatrace\\Sakura\\": "src/"
+            "Boatrace\\Venture\\Project\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Boatrace\\Sakura\\Tests\\": "tests/"
+            "Boatrace\\Venture\\Project\\Tests\\": "tests/"
         }
     }
 }

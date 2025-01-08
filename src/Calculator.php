@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Boatrace\Sakura;
+namespace Boatrace\Venture\Project;
 
 use DI\Container;
 use DI\ContainerBuilder;
@@ -13,7 +13,7 @@ use DI\ContainerBuilder;
 class Calculator
 {
     /**
-     * @var \Boatrace\Sakura\Calculator
+     * @var \Boatrace\Venture\Project\Calculator
      */
     protected static Calculator $instance;
 
@@ -23,7 +23,7 @@ class Calculator
     protected static Container $container;
 
     /**
-     * @param  \Boatrace\Sakura\MainCalculator  $calculator
+     * @param  \Boatrace\Venture\Project\MainCalculator  $calculator
      * @return void
      */
     public function __construct(protected MainCalculator $calculator){}
@@ -49,7 +49,7 @@ class Calculator
     }
 
     /**
-     * @return \Boatrace\Sakura\Calculator
+     * @return \Boatrace\Venture\Project\Calculator
      */
     public static function getInstance(): Calculator
     {

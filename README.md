@@ -1,14 +1,14 @@
-# Boatrace Sakura Calculator
+# Calculator in the Boatrace Venture Project
 
-[![Build Status](https://github.com/boatrace-sakura/calculator/workflows/tests/badge.svg)](https://github.com/boatrace-sakura/calculator/actions?query=workflow%3Atests)
-[![Coverage Status](https://coveralls.io/repos/github/boatrace-sakura/calculator/badge.svg?branch=main)](https://coveralls.io/github/boatrace-sakura/calculator?branch=main)
-[![Latest Stable Version](https://poser.pugx.org/boatrace-sakura/calculator/v/stable)](https://packagist.org/packages/boatrace-sakura/calculator)
-[![Latest Unstable Version](https://poser.pugx.org/boatrace-sakura/calculator/v/unstable)](https://packagist.org/packages/boatrace-sakura/calculator)
-[![License](https://poser.pugx.org/boatrace-sakura/calculator/license)](https://packagist.org/packages/boatrace-sakura/calculator)
+[![Build Status](https://github.com/BoatraceVentureProject/Calculator/workflows/tests/badge.svg)](https://github.com/BoatraceVentureProject/Calculator/actions?query=workflow%3Atests)
+[![Coverage Status](https://coveralls.io/repos/github/BoatraceVentureProject/Calculator/badge.svg?branch=main)](https://coveralls.io/github/BoatraceVentureProject/Calculator?branch=main)
+[![Latest Stable Version](https://poser.pugx.org/bvp/calculator/v/stable)](https://packagist.org/packages/bvp/calculator)
+[![Latest Unstable Version](https://poser.pugx.org/bvp/calculator/v/unstable)](https://packagist.org/packages/bvp/calculator)
+[![License](https://poser.pugx.org/bvp/calculator/license)](https://packagist.org/packages/bvp/calculator)
 
 ## Installation
 ```bash
-composer require boatrace-sakura/calculator
+composer require bvp/calculator
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ composer require boatrace-sakura/calculator
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Boatrace\Sakura\Calculator;
+use Boatrace\Venture\Project\Calculator;
 
 var_dump(Calculator::calculateMedian([5, 1, 3])); // 中央値 3.0
 var_dump(Calculator::calculateMedian([5, 1, 3, 2])); // 中央値 2.5
@@ -39,4 +39,4 @@ var_dump(Calculator::calculateSyntheticOdds([12.0, 24.0, 24.0])); // 合成オ�
 ```
 
 ## License
-The Boatrace Sakura Calculator is open source software licensed under the [MIT license](LICENSE).
+Calculator in the Boatrace Venture Project is open source software licensed under the [MIT license](LICENSE).

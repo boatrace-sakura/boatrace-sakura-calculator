@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Boatrace\Sakura\Tests;
+namespace Boatrace\Venture\Project\Tests;
 
-use Boatrace\Sakura\MainCalculator;
+use Boatrace\Venture\Project\MainCalculator;
 use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 
 /**
@@ -13,7 +13,7 @@ use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 class MainCalculatorTest extends PHPUnitTestCase
 {
     /**
-     * @var \Boatrace\Sakura\MainCalculator
+     * @var \Boatrace\Venture\Project\MainCalculator
      */
     protected MainCalculator $calculator;
 
